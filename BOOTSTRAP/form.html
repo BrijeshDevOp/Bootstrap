@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Forms -->
+    <div class="container-fluid">
+        <div class="container text-center bg-info p-4 m-3 border border-primary">
+            <form action="">
+                <div class="form-group m-2">
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="form-group m-2">
+                    <label for="name">Name</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="form-group m-2">
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="container  rounded bg-primary p-4 m-3 border border-2 border-primary">
+            <form class="form-horizontal">
+                <div class="form-group m-2">
+                    <label class="control-label col-sm-2 text-light" for="email">Email</label>
+                    <input type="email" name="email" class="form-control">
+                </div>
+                <div class="form-group m-2">
+                    <label class="control-label col-sm-2 text-light" for="name">Name</label>
+                    <input type="text" name="name" class="form-control">
+                </div>
+                <div class="form-group m-2">
+                    <button class="btn btn-info">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="container text-center bg-info p-4 m-3 border border-primary">
+            <form action="" class="form-inline">
+                <div class="form-group m-2 ">
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div class="form-group m-2">
+                    <label for="name">Name</label>
+                    <input type="text" name="name">
+                </div>
+                <div class="form-group m-2">
+                    <button class="btn btn-primary active">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Check box -->
+        <div class="container text-center bg-info p-4 m-3 border border-primary">
+            <form action="">
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" name="a" id="custome" class="custom-control-input">
+                    <label for="a" class="custom-control-label">Custome</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="b" id="">
+                    <label for="b">default</label>
+                </div>
+            </form>
+        </div>
+
+        <!-- Radio -->
+        <div class="container text-center bg-info p-4 m-3 border border-primary">
+            <form action="">
+                <div class="custom-control custom-radio mb-3">
+                    <input type="radio" name="a" id="custome" class="custom-control-input">
+                    <label for="a" class="custom-control-label">Custome</label>
+                </div>
+
+                <div class="custom-control custom-radio mb-3">
+                    <input type="radio" name="a" id="custome" class="custom-control-input">
+                    <label for="a" class="custom-control-label">Custome</label>
+                </div>
+                <div>
+                    <input type="radio" name="b" id="">
+                    <label for="b">default</label>
+                </div>
+            </form>
+        </div>
+
+        <!-- Select -->
+        <div class="container text-center bg-info p-4 m-3 border border-primary">
+            <form action="">
+                <select name="cars" class="custom-select">
+                    <option selected>Select</option>
+                    <option value="xxx">www</option>
+                    <option value="x">x</option>
+                    <option value="www">www</option>
+                </select>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
